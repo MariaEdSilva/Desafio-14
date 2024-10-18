@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="home" name="nome" placeholder="Digite seu nome"><br>
+        <br>
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="home" name="email" placeholder="Digite seu e-mail"><br>
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="text" id="home" name="senha" placeholder="Digite sua senha"><br>
+        <br>
+
+        <label for="genero">Gênero:</label><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="masculino" value="masculino" required>
+        <br>
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino" name="genero" value="feminino" required><br>
+        <br>
+
+        <label>Quer receber noticias?</label><br>
+        <label for="noticias">Sim</label>
+        <input type="checkbox" id="home" name="noticias"><br>
+        <label for="noticias">Não</label>
+        <input type="checkbox" id="home" name="noticias"><br>
+        <br>
+
+        <label for="cidade">Cidade:</label>
+        <select id="cidade" name="cidade">
+            <option value="Bauru">Bauru</option>
+            <option value="Piratininga">Piratininga</option>
+            <option value="Duartina">Duartina</option>
+            <option value="Agudos">Agudos</option>
+            <option value="Marília">Marília</option>
+        </select>
+        <br>
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>
